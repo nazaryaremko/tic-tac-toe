@@ -1,0 +1,56 @@
+<html>
+    <head> <script src="jscode.js" defer></script> 
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body> 
+        <div id='container'>
+        <h1 id = 'heading'>My tic tac toe game</h1>
+        <div id = 'mytable'>
+        <table>
+            <tr>
+              <td class='box' id='1'></td>
+              <td class='box' id='2'></td>
+              <td class='box' id='3'></td>
+            </tr>
+            <tr>
+              <td class='box' id='4'></td>
+              <td class='box' id='5'></td>
+              <td class='box' id='6'></td>
+            </tr>
+            <tr>
+              <td class='box' id='7'></td>
+              <td class='box' id='8'></td>
+              <td class='box' id='9'></td>
+            </tr>
+          </table>
+        </div>
+        <div id='refresh-btn'>
+            <button class="btn-green">
+                <img class="icon" src="https://htmlacademy.ru/assets/icons/reload-6x-white.png"> Refresh
+            </button>
+        </div>
+        <div class='wrapper'>
+            <form id='nameForm'>
+            <div class='form-uname'>
+                <label id='first-player' for='nameField1'>First player's name:</label>
+                <input id='nameField1' type='text' maxlength='25'></input>
+                <label id='second-player' for='nameField2'>Second player's name:</label>
+                <input id='nameField2' type='text' maxlength='25'></input>
+            </div>
+            <div class='form-sub'>
+                <button id='subButton' type='button'>Submit</button>
+            </div>
+            </form>
+            
+            <div>
+                <p id='result'></p></div>
+            </div>
+
+            <div id='result-section'>
+                Results will be displayed here. Please input the players' names and press 'Submit' to start the game.
+            </div>
+        </div>
+          
+    </body>
+    
+</html>
